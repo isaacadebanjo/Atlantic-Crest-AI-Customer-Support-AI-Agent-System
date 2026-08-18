@@ -1,6 +1,6 @@
-# Atlantic Crest Polytechnic — Support Assistant Web App
+# Atlantic Crest Polytechnic - Support Assistant Web App
 
-The web chat widget and administrative dashboard described in Chapter Four of the project.
+The web chat widget and administrative dashboard.
 Built with JavaScript and Next.js.
 
 - `/` — the school website page with the chat widget embedded on it
@@ -39,8 +39,7 @@ Open http://localhost:3000
 | `ADMIN_PASSWORD` | You choose it. This is the dashboard login password |
 
 The service role key bypasses row level security, so it stays server side only. Nothing in this
-project sends it to the browser, and `.env.local` is git-ignored. Do not paste that key into a
-screenshot for the project.
+project sends it to the browser, and `.env.local` is git-ignored.
 
 ## How the chat widget works
 
@@ -69,18 +68,6 @@ explaining what is missing.
 
 ## Deploying
 
-The app runs fine locally for your defense demonstration. If you want a public URL, push the
+The app runs fine locally. If you want a public URL, push the
 folder to GitHub and import it at vercel.com, then add the same five environment variables in
 the Vercel project settings. The free tier is enough.
-
-## Screenshots for the write-up
-
-Sections 4.5 and 4.6 of the project need these:
-
-1. The homepage with the widget open, showing a real question and answer
-2. The dashboard Overview tab
-3. The dashboard Knowledge base tab
-4. The dashboard Contacts tab
-5. The dashboard Announcements tab
-
-Take them after your knowledge base is ingested, so the figures and answers are real.
