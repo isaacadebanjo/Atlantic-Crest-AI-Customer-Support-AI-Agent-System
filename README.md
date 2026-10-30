@@ -1,11 +1,13 @@
 # Atlantic Crest Polytechnic - Support Assistant Web App
-
 The web chat widget and administrative dashboard.
 Built with JavaScript and Next.js.
+
+## View Live Project 👉👉👉 Alantic-crest-customer-support-sys.vercel.app
 
 - `/` — the school website page with the chat widget embedded on it
 - `/admin` — the Student Affairs dashboard, password protected
 
+## --TO SETUP LOCALLY👇--
 ## What you need first
 
 - Node.js 18.17 or newer. Check with `node -v`
