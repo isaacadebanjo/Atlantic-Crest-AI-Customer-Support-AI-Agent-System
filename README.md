@@ -2,7 +2,7 @@
 The web chat widget and administrative dashboard.
 Built with JavaScript and Next.js.
 
-## View Live Project 👉👉👉 Alantic-crest-customer-support-sys.vercel.app
+## View Live Project 👉👉👉 https://alantic-crest-customer-support-sys.vercel.app
 
 - `/` — the school website page with the chat widget embedded on it
 - `/admin` — the Student Affairs dashboard, password protected
